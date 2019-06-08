@@ -1,5 +1,9 @@
 package com.gupao.edu.factory.simplefactory;
 
+import com.gupao.edu.factory.ICourse;
+import com.gupao.edu.factory.JavaCourse;
+import com.gupao.edu.factory.PythonCourse;
+
 public class SimpleFactoryTest {
     public static void main(String[] args) {
 //        ICourse course = new JavaCourse();

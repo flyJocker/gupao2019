@@ -1,5 +1,7 @@
 package com.gupao.edu.factory.simplefactory;
 
+import com.gupao.edu.factory.ICourse;
+
 public class CourseFactory {
 //    public ICourse create(String name){
 //        if("java".equals(name)){

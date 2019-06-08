@@ -1,4 +1,4 @@
-package com.gupao.edu.factory.simplefactory;
+package com.gupao.edu.factory;
 
 public class PythonCourse implements  ICourse {
     @Override
