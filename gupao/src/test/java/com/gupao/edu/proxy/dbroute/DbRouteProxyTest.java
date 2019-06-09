@@ -1,6 +1,7 @@
 package com.gupao.edu.proxy.dbroute;
 
 import com.gupao.edu.proxy.dbroute.db.DynamicDataSourceEntity;
+import com.gupao.edu.proxy.dbroute.proxy.OrderServiceDynamicProxy;
 import com.gupao.edu.proxy.dbroute.proxy.OrderServiceStaticProxy;
 
 import java.text.ParseException;
@@ -20,7 +21,7 @@ public class DbRouteProxyTest {
             Date date = sdf.parse("2017/02/01");
             order.setCreateTime(date.getTime());
 
-            IOrderService orderService = new OrderServiceStaticProxy(new OrderService());
+            IOrderService orderService = (IOrderService) new OrderServiceDynamicProxy().getInstance(new OrderService());
             orderService.createOrder(order);
         } catch (ParseException e) {
             e.printStackTrace();
