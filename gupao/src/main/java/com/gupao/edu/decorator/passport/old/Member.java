@@ -1,4 +1,4 @@
-package com.gupao.edu.adapter.loginadapter;
+package com.gupao.edu.decorator.passport.old;
 
 /**
  * Created by Tom.

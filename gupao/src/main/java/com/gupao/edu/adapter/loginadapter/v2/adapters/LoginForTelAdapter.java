@@ -1,6 +1,6 @@
 package com.gupao.edu.adapter.loginadapter.v2.adapters;
 
-import com.gupao.edu.adapter.loginadapter.ResultMsg;
+import com.gupao.edu.decorator.passport.old.ResultMsg;
 
 /**
  * Created by Tom.

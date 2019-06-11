@@ -1,11 +1,9 @@
-package com.gupao.edu.adapter.loginadapter.v2;
+package com.gupao.edu.decorator.passport.upgrade;
 
+import com.gupao.edu.decorator.passport.old.ISiginService;
 import com.gupao.edu.decorator.passport.old.ResultMsg;
 
-/**
- * 只扩展
- */
-public interface IPassPortForThird {
+public interface ISiginForThirdService extends ISiginService {
 
     /**
      * QQ登录
@@ -43,5 +41,4 @@ public interface IPassPortForThird {
      * @return
      */
     ResultMsg loginForRegist(String username, String passport);
-
 }

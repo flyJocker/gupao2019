@@ -1,6 +1,7 @@
 package com.gupao.edu.adapter.loginadapter.v1.service;
 
-import com.gupao.edu.adapter.loginadapter.ResultMsg;
+import com.gupao.edu.decorator.passport.old.ResultMsg;
+import com.gupao.edu.decorator.passport.old.SiginService;
 
 public class SinginForThirdService extends SiginService {
 

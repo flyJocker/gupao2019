@@ -1,7 +1,7 @@
 package com.gupao.edu.adapter.loginadapter.v2;
 
-import com.gupao.edu.adapter.loginadapter.ResultMsg;
-import com.gupao.edu.adapter.loginadapter.v1.service.SiginService;
+import com.gupao.edu.decorator.passport.old.ResultMsg;
+import com.gupao.edu.decorator.passport.old.SiginService;
 import com.gupao.edu.adapter.loginadapter.v2.adapters.*;
 
 /**

@@ -1,12 +1,9 @@
-package com.gupao.edu.adapter.loginadapter.v1.service;
-
-import com.gupao.edu.adapter.loginadapter.Member;
-import com.gupao.edu.adapter.loginadapter.ResultMsg;
+package com.gupao.edu.decorator.passport.old;
 
 /**
  * Created by Tom.
  */
-public class SiginService {
+public class SiginService implements ISiginService{
 
     /**
      * 注册方法
